@@ -1,6 +1,6 @@
-# 🚀 GASSAI – SSSM LPG
+GASSAI: An Online Ordering Management System for SSSM LPG House
 
-An end-to-end web‑based system for managing LPG operations—ordering, inventory, sales, and reporting—built for the SSSM LPG House.
+A web‑based system for managing LPG operations—ordering, inventory, sales, and reporting—built for the SSSM LPG House.
 
 ---
 
@@ -8,9 +8,7 @@ An end-to-end web‑based system for managing LPG operations—ordering, invento
 
 - [About the Project](#about-the-project)  
 - [Features](#features)   
-- [Installation](#installation)    
-- [Deployment](#deployment)  
-- [Contributing](#contributing)  
+- [Installation](#installation)        
 - [Contact](#contact)
 
 ---
@@ -29,3 +27,20 @@ GASSAI ("Gas Sales and Stock Administration Interface") is a capstone project fo
 - 📅 **Reporting**: Export daily/weekly sales summaries  
 - 📱 **Responsive Design**: Mobile (upcoming) and desktop-ready UI
 
+## 🛠 Installation
+
+Clone the repository using this:
+
+git clone https://github.com/SrAndronics/GASSAI-SSSM-LPG.git
+cd GASSAI-SSSM-LPG
+
+## 📨 Contact
+
+Author: John Andrew B. Empania
+        Lawrence Lance T. Matias
+        Janbert A. Mirabona
+        Darell Jade C. Pabuaya
+Email: jaempania2003@gmail.com
+       cc.johnandrew.empania@cvsu.edu.ph
+
+GitHub: [SrAndronics](https://github.com/SrAndronics)
