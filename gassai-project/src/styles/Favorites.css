@@ -1,0 +1,42 @@
+.favorites-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.favorites-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff6f00;
+  margin-bottom: 20px;
+}
+
+.favorites-actions {
+  margin-bottom: 20px;
+}
+
+.add-all-to-cart-button {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #213547;
+  background-color: transparent;
+  border: 2px solid #e0e0e0;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.favorites-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.favorites-empty-message {
+  font-size: 1.2rem;
+  color: #757575;
+  text-align: center;
+  padding: 50px 0;
+} 

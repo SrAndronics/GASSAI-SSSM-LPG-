@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import '../styles/Navbar.css'; // Create this for styling
 import gassaiLogo from '../assets/gassai_logo.png';
 
@@ -31,9 +31,9 @@ export default function Navbar() {
             <span className="search-icon">🔍</span>
             <input type="text" placeholder="Search" className="search" />
           </div>
-          <span className="icon">🛒</span>
-          <span className="icon">🔔</span>
-          <span className="icon">👤</span>
+          <Link to="/cart" className="icon">🛒</Link>
+          <Link to="/notifications" className="icon">🔔</Link>
+          <Link to="/login" className="icon">👤</Link>
         </div>
       </div>
     </nav>

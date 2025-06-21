@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/HeroSection.css'; // Create this for styling
 
 export default function HeroSection() {
@@ -10,7 +11,7 @@ export default function HeroSection() {
           EFFORTLESS WITH <br />
           <span className="sssm">SSSM</span> <span className="gas">GAS</span>
         </h1>
-        <button className="order-btn">ORDER NOW</button>
+        <Link to="/products" className="order-btn">ORDER NOW</Link>
       </div>
     </section>
   );

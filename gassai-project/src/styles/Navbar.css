@@ -4,7 +4,7 @@
   justify-content: space-between;
   padding: 18px 20px;
   background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-bottom: 3px solid #f3f3f3;
   width: 100vw;
   min-width: 0;
   left: 0;
@@ -47,24 +47,24 @@
 }
 
 .nav-links li {
+  /* All styling is now on the <a> tag for consistency */
+}
+
+.nav-links a {
+  display: inline-block;
   font-size: 1.1rem;
   cursor: pointer;
   padding-bottom: 4px;
   border-bottom: 2px solid transparent;
-  transition: border 0.2s, color 0.2s, font-weight 0.2s;
-  color: #2d2d2e;
+  transition: border-bottom-color 0.2s, color 0.2s, font-weight 0.2s;
+  color: #213547;
   font-weight: 500;
-  background: none;
+  text-decoration: none;
 }
 
-.nav-links .active {
-  border-bottom: 2px solid #ff6f00;
-  color: #ff6f00;
-  font-weight: bold;
-}
-
-.nav-links li:hover {
-  border-bottom: 2px solid #ff6f00;
+.nav-links a.active,
+.nav-links a:hover {
+  border-bottom-color: #ff6f00;
   color: #ff6f00;
   font-weight: bold;
 }

@@ -55,3 +55,14 @@ body {
   color: #2d2d2e;
   background: transparent;
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  background-color: #fff;
+}

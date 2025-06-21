@@ -1,11 +1,33 @@
 import React from 'react';
-import '../App.css';
+import ProductCard from '../components/ProductCard';
+import '../styles/Favorites.css';
 
-export default function Favorites() {
+const Favorites = ({ favoriteItems, favorites, toggleFavorite }) => {
   return (
-    <section className="page-section">
-      <h1 className="page-title">Favorites Page</h1>
-      <p className="page-text">Your favorite items will appear here.</p>
-    </section>
+    <div className="favorites-page">
+      <h1 className="favorites-title">Favorites</h1>
+      
+      {favoriteItems.length > 0 ? (
+        <>
+          <div className="favorites-actions">
+            <button className="add-all-to-cart-button">ADD ALL TO CART</button>
+          </div>
+          <div className="favorites-grid">
+            {favoriteItems.map((product) => (
+              <ProductCard 
+                key={product.id} 
+                product={product} 
+                favorites={favorites} 
+                toggleFavorite={toggleFavorite} 
+              />
+            ))}
+          </div>
+        </>
+      ) : (
+        <p className="favorites-empty-message">You haven't added any favorites yet.</p>
+      )}
+    </div>
   );
-}
+};
+
+export default Favorites;
