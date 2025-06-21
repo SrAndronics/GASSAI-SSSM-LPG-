@@ -31,16 +31,18 @@ GASSAI ("Gas Sales and Stock Administration Interface") is a capstone project fo
 
 Clone the repository using this:
 
-git clone https://github.com/SrAndronics/GASSAI-SSSM-LPG.git
-cd GASSAI-SSSM-LPG
+- git clone https://github.com/SrAndronics/GASSAI-SSSM-LPG.git
+- cd GASSAI-SSSM-LPG
 
 ## 📨 Contact
 
-Author: John Andrew B. Empania
-        Lawrence Lance T. Matias
-        Janbert A. Mirabona
-        Darell Jade C. Pabuaya
-Email: jaempania2003@gmail.com
-       cc.johnandrew.empania@cvsu.edu.ph
+Authors: 
+- John Andrew B. Empania
+- Lawrence Lance T. Matias
+- Janbert A. Mirabona
+- Darell Jade C. Pabuaya
+Email:
+- jaempania2003@gmail.com
+- cc.johnandrew.empania@cvsu.edu.ph
 
 GitHub: [SrAndronics](https://github.com/SrAndronics)
