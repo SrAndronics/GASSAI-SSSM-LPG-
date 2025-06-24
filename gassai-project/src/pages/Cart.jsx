@@ -53,9 +53,9 @@ const Cart = ({ cartItems, updateCartQuantity, removeFromCart }) => {
                 </div>
                 <div className="item-price">₱{item.price}</div>
                 <div className="item-quantity">
-                  <button onClick={() => updateCartQuantity(item.id, item.quantity - 1)}>-</button>
+                  <button className='add-button' onClick={() => updateCartQuantity(item.id, item.quantity - 1)}>-</button>
                   <input type="text" value={item.quantity} readOnly />
-                  <button onClick={() => updateCartQuantity(item.id, item.quantity + 1)}>+</button>
+                  <button className='add-button' onClick={() => updateCartQuantity(item.id, item.quantity + 1)}>+</button>
                 </div>
                 <div className="item-total">
                   ₱{(parseFloat(item.price.replace(/,/g, '')) * item.quantity).toFixed(2)}

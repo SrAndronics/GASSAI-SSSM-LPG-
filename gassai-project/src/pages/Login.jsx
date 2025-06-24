@@ -23,7 +23,7 @@ const Login = () => {
           <span>Continue with Google</span>
         </button>
         <p className="auth-switch-link">
-          New to SSSM LPG? <Link to="/signup">Sign Up</Link>
+          New to SSSM LPG? <  Link to="/signup" className="signup-link">Sign Up</Link>
         </p>
       </div>
     </div>

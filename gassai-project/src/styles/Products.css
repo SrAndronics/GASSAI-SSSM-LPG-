@@ -68,12 +68,18 @@
   cursor: pointer;
   color: #213547;
   font-weight: bold;
+  transition:border-color 0.3s, background-color 0.3s, color 0.3s ease;
 }
 
+.sort-button:hover {
+  border-color: #ff6f00;
+  background-color: #ff6f00;
+  color: white;
+}
 .sort-button.active {
   background-color: #ff6f00;
   color: white;
-  border-color: #213547;
+  border-color: #ff6f00;
 }
 
 .sort-dropdown select {
@@ -84,6 +90,7 @@
   color: #213547;
   font-weight: bold;
 }
+
 
 .product-grid {
   display: grid;

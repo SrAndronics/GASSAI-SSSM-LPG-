@@ -12,7 +12,9 @@ const Signup = () => {
             <input type="text" placeholder="Full Name" className="auth-input" />
           </div>
           <div className="auth-input-group">
-            <input type="text" placeholder="Mobile Number" className="auth-input" />
+            <input type="text" placeholder="Mobile Number" className="auth-input" inputMode='numeric' pattern='[0-9]' maxLength={11} onInput={(e) => {
+      e.target.value = e.target.value.replace(/[^0-9]/g, '');
+    }}/>
           </div>
           <div className="auth-input-group">
             <input type="text" placeholder="Address" className="auth-input" />
@@ -28,7 +30,7 @@ const Signup = () => {
           <span>Continue with Google</span>
         </button>
         <p className="auth-switch-link">
-          Have an Account? <Link to="/login">Log In</Link>
+          Have an Account? <Link to="/login" className="signup-link">Log In</Link>
         </p>
       </div>
     </div>

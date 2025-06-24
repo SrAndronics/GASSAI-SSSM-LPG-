@@ -67,11 +67,11 @@
 .footer-link {
   color: #213547;
   text-decoration: none;
-  transition: text-decoration 0.2s;
+  transition: color 0.2s ease;
 }
 
 .footer-link:hover {
-  text-decoration: underline;
+  color: #ff6f00;
 }
 
 .footer-subscribe-section h4 {
@@ -89,6 +89,8 @@
   border-radius: 4px 0 0 4px;
   outline: none;
   width: 100%;
+  background-color: white;
+  color: black;
 }
 
 .subscribe-button {

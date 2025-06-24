@@ -90,6 +90,7 @@
   border-right: none;
   height: 23px;
   color: #213547;
+  background-color: white;
 }
 
 .item-actions {
@@ -141,6 +142,13 @@
   font-size: 1.1rem;
   font-weight: bold;
   cursor: pointer;
+  transition: color 0.3s, background-color 0.3s, border-color 0.3s ease;
+}
+
+.checkout-button:hover{
+  background-color: #ff6f00;
+  color: white;
+  border-color: #ff6f00;
 }
 
 .cart-empty-message {
@@ -159,3 +167,17 @@
   color: #213547;
   font-weight: 500;
 } 
+
+.add-button{
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  width: 32px;           /* adjust as needed */
+  height: 32px;          /* adjust as needed */
+  font-size: 20px;       /* ensure + is visible */
+  border: 1px solid #ccc;
+  border-radius: 6px;    /* optional for rounded corners */
+  background-color: white;
+  cursor: pointer;
+}
